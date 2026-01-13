@@ -1,0 +1,70 @@
+{
+  "id": "twodsix-alien-complex",
+  "title": "twodsix alien complex",
+  "version": "1.0.0",
+  "manifest": "https://github.com/classictraveller777/twodsix-alien-complex/releases/latest/download/module.json",
+  "download": "https://github.com/classictraveller777/twodsix-alien-complex/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "packs": [
+    {
+      "name": "twodsix-alien-complex",
+      "label": "twodsix alien complex",
+      "path": "packs/twodsix-alien-complex",
+      "type": "Adventure",
+      "system": "twodsix",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "twodsix",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "gm-vision",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-tokenbar",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tile-sort",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://github.com/classictraveller777/twodsix-alien-complex",
+  "description": "",
+  "flags": {}
+}

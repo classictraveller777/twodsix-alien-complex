@@ -16,7 +16,7 @@
       "type": "Adventure",
       "system": "twodsix",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     }
